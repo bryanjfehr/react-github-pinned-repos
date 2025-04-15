@@ -1,0 +1,36 @@
+/* Custom styles for the GitHubPinnedRepos component */
+  .container {
+    padding: 20px 0;
+  }
+  
+  /* Loading and error states */
+  .loading {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .error {
+    font-size: 1.2rem;
+    color: #dc3545; /* Bootstrap's danger color */
+  }
+  
+  /* Card hover effect */
+  .card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Language dot styling */
+  .languageDot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  
